@@ -1,0 +1,75 @@
+#version 430 core                                        
+
+layout (location = 0) out vec4 color;                        
+
+in VS_OUT                                        
+{                                                      
+   vec2 tcolor;         
+   vec3 Normal; 
+   vec4 Position;
+} fs_in;
+
+
+uniform vec3 ambientlight;
+uniform vec3 LightColor;
+uniform vec3 LightPosition;
+uniform float Shininess;
+uniform float Strength;
+
+uniform float ConstantAttenuation;
+uniform float LinearAttenuation;
+uniform float QuadraticAttenuation;
+
+uniform vec3 ConeDirection;
+uniform float SpotCosCutOff;
+uniform float SpotExponent;
+
+layout (binding = 0) uniform sampler2D tex;                  
+
+void main(void)                                                  
+{   
+	float lightDistance;
+	vec3 rgb;
+	vec3 LightDirection = LightPosition - vec3(fs_in.Position);
+		
+  lightDistance = length(LightDirection);
+  LightDirection = LightDirection/lightDistance;
+  
+  float attenuation = 1.0 / (ConstantAttenuation + LinearAttenuation * lightDistance + QuadraticAttenuation
+								* lightDistance );
+								
+  float spotCos = dot(LightDirection, -ConeDirection);
+  
+  if (spotCos < SpotCosCutOff)
+		attenuation = 0.0;
+  else
+	attenuation *= pow(spotCos, SpotExponent);
+	
+	
+	
+  
+  vec3 halfVector = normalize(LightDirection + ConeDirection);
+  float diffuse = max(0.0, dot(vec3(fs_in.Normal), LightDirection));
+  float specular = max(0.0, dot(vec3(fs_in.Normal), halfVector));
+  
+  
+  
+  if(diffuse == 0.0){
+  specular = 0.0;
+  }
+  else {
+  specular = pow(specular, Shininess) * Strength;
+  }
+  
+  vec3 scatteredLight = ambientlight + LightColor * diffuse * attenuation;
+  vec3 reflectedLight = LightColor * specular *attenuation;
+
+
+  vec4 texColor = texture(tex, fs_in.tcolor);
+
+ rgb = min(texColor.rgb * scatteredLight + reflectedLight ,vec3(1.0));
+
+ 
+  color = vec4(rgb,texColor.a);
+} 
+

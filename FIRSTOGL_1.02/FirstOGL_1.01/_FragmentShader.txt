@@ -1,0 +1,8 @@
+#version 430
+
+out vec4 color;
+
+void main(void)
+{		
+		color = vec4((sin(gl_FragCoord.x * 0.50)) * (cos(gl_FragCoord.y * 0.85)) -.4,0.0,(sin(gl_FragCoord.x * 0.50)) * (cos(gl_FragCoord.y * 0.85)) -.4,1.0);
+}

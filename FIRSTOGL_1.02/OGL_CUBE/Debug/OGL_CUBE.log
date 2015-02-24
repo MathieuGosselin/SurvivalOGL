@@ -1,0 +1,190 @@
+﻿La génération a démarré 2015-02-23 14:28:44.
+     1>Projet "C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\OGL_CUBE\OGL_CUBE.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\FirstOGL_1.02.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\include" /I"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Map.cpp
+         Map.cpp
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.01\include\sb6.h(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(11): warning C4351: nouveau comportement : les éléments du tableau 'Map::fQuad' vont être initialisés par défaut
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(124): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(126): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(138): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(139): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(140): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(142): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(143): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(144): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(146): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(147): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(148): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(150): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(151): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(152): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(154): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(155): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(156): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(158): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(159): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(160): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(164): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(165): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(166): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(168): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(169): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(170): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(172): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(173): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(174): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(176): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(177): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(178): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(180): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(181): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(182): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(184): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(185): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(186): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(189): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(190): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(191): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(193): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(194): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(195): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(197): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(198): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(199): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(201): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(202): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(203): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(205): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(206): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(207): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(209): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(210): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(211): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(214): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(215): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(216): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(218): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(219): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(220): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(222): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(223): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(224): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(226): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(227): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(228): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(230): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(231): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(232): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(234): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(235): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(236): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(239): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(240): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(241): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(243): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(244): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(245): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(247): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(248): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(249): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(251): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(252): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(253): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(255): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(256): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(257): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(259): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(260): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(261): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(264): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(265): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(266): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(268): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(269): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(270): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(272): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(273): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(274): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(276): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(277): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(278): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(280): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(281): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(282): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(284): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(285): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(286): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2725): warning C4244: '=' : conversion de 'const int' en 'GLfloat', perte possible de données
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2770) : voir la référence à l'instanciation de la fonction modèle 'void std::_Fill_n<float*,_Diff,_Ty>(_OutIt,_Diff,const _Ty &)' en cours de compilation
+                 with
+                 [
+                     _Diff=int,
+                     _Ty=int,
+                     _OutIt=float *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2780) : voir la référence à l'instanciation de la fonction modèle 'void std::_Fill_n1<_OutIt,_Diff,_Ty>(_OutIt,_Diff,const _Ty &,std::random_access_iterator_tag)' en cours de compilation
+                 with
+                 [
+                     _OutIt=std::_Array_iterator<GLfloat,108>,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2801) : voir la référence à l'instanciation de la fonction modèle 'void std::_Fill_n<_OutIt,_Diff,_Ty>(_OutIt,_Diff,const _Ty &,std::tr1::true_type)' en cours de compilation
+                 with
+                 [
+                     _OutIt=std::_Array_iterator<GLfloat,108>,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2810) : voir la référence à l'instanciation de la fonction modèle 'void std::fill_n<std::_Array_iterator<_Ty,_Size>,_Diff,int>(_OutIt,_Diff,const int &)' en cours de compilation
+                 with
+                 [
+                     _Ty=GLfloat,
+                     _Size=108,
+                     _Diff=int,
+                     _OutIt=std::_Array_iterator<GLfloat,108>
+                 ]
+                 c:\users\mathieu\documents\visual studio 2010\projects\firstogl_1.02\ogl_cube\map.cpp(301) : voir la référence à l'instanciation de la fonction modèle 'void std::fill_n<GLfloat,108,int,int>(_OutTy (&)[108],_Diff,const _Ty &)' en cours de compilation
+                 with
+                 [
+                     _OutTy=GLfloat,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+         Toutes les sorties sont à jour.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\FirstOGL_1.02.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FirstOGL_1.02.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\FirstOGL_1.02.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\FirstOGL_1.02.lib" /MACHINE:X86 Debug\camera.obj
+         Debug\Entity.obj
+         Debug\lodepng.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\Model.obj
+     1>camera.obj : warning LNK4075: ' /EDITANDCONTINUE' ignoré à cause de la spécification '/INCREMENTAL:NO'
+     1>GLFW_d32.lib(enable.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(enable.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(fullscreen.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(fullscreen.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(glext.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(glext.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(init.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(init.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(input.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(input.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(time.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(time.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(win32_enable.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(win32_enable.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(win32_fullscreen.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(win32_fullscreen.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(win32_glext.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(win32_glext.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(win32_init.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(win32_init.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(win32_time.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(win32_time.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(win32_window.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(win32_window.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+     1>GLFW_d32.lib(window.obj) : warning LNK4099: PDB 'vc100.pdb' n'a pu être trouvé avec 'GLFW_d32.lib(window.obj)' ou sur 'C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\vc100.pdb' ; l'objet sera lié sans informations de débogage
+         OGL_CUBE.vcxproj -> C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\FirstOGL_1.02.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\Debug\FirstOGL_1.02.exe;#1" /manifest Debug\FirstOGL_1.02.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\FirstOGL_1.02.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\FirstOGL_1.02.lastbuildstate".
+     1>Génération du projet "C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.02\OGL_CUBE\OGL_CUBE.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.27

@@ -1,0 +1,19 @@
+﻿La génération a démarré 2014-08-22 11:09:41.
+     1>Projet "C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\support\msvc100\particles.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\particles.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\support\msvc100\../../include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\examples\particles.c
+         particles.c
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\particles_debug.exe.embed.manifest.res" Debug\particles_debug_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\support\msvc100\..\..\examples\particles_debug.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\particles_debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\examples\particles_debug.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\support\msvc100\..\..\examples\particles_debug.lib" /MACHINE:X86 Debug\particles_debug.exe.embed.manifest.res
+         Debug\particles.obj
+         "C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\support\msvc100\Debug\GLFW.lib"
+     1>LINK : fatal error LNK1123: échec lors de la conversion en fichier COFF : fichier non valide ou endommagé
+     1>Génération du projet "C:\Users\Mathieu\Documents\Visual Studio 2010\Projects\FirstOGL_1.01\extern\glfw-2.7.6\support\msvc100\particles.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.65
