@@ -6,7 +6,7 @@ Entity::Entity(const char *ModelPath,vmath::vec3 _position)
 {
 	if(!model.LoadModel(ModelPath))
 	{
-		DBOUT("Error Loading Model");
+		DBOUT("Error Loading Model :: " << ModelPath << std::endl);
 	}
 	else
 	{

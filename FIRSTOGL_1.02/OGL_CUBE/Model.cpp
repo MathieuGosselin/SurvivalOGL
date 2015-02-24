@@ -25,6 +25,8 @@ bool Model::LoadModel(const char *filename)
 	glGenBuffers(1,&VBOnorm);
 	glGenBuffers(1,&VBOtex);
 
+	DBOUT("Loading: " << filename << "..." << std::endl);
+
 	while(std::getline(file,line))
 	{
 		split_line = MGstream::split(line,' ');
@@ -87,7 +89,6 @@ bool Model::LoadModel(const char *filename)
 		}
 	}
 
-	DBOUT(array_vTexture.size() << "," << array_vertex.size() << ',' << array_vNormal.size() << std::endl);
 	array_vertex.clear();
 	array_vNormal.clear();
 	array_vTexture.clear();

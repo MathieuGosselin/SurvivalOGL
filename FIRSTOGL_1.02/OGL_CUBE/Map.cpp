@@ -1,8 +1,7 @@
 #include "Map.h"
+#include "MGstream.h"
 
 #define VERTEX_BY_CUBE 108
-#define SIZEOFQUADS 300000
-#define SIZEOFTEXTURE 200000
 #define SIZE 2.0
 
 using namespace vmath;
@@ -13,6 +12,8 @@ Map::Map(void): fQuad()
 
 bool Map::loadmap(const char *filename)
 {
+	DBOUT("Loading :" << filename << "..." << std::endl);
+
 	std::vector<unsigned char> png;
 	std::vector<unsigned char> image;
 	unsigned width,height;

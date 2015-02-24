@@ -33,6 +33,12 @@
     <ClInclude Include="Entity.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -51,6 +57,12 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="Entity.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

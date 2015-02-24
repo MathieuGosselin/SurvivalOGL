@@ -75,6 +75,8 @@
     </ClCompile>
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Model.cpp" />
+    <ClCompile Include="SpotLight.cpp" />
+    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
@@ -83,6 +85,8 @@
     <ClInclude Include="Map.h" />
     <ClInclude Include="MGstream.h" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="SpotLight.h" />
+    <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
